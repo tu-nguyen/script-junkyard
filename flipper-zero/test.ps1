@@ -1,6 +1,6 @@
 $FileName = "$env:tmp/$env:USERNAME-LOOT-$(get-date -f yyyy-MM-dd_hh-mm).txt"
 
-$test = "C:/temp/test.txt"
+$test = "C:/temp/test.html"
 
 #------------------------------------------------------------------------------------------------------------------------------------
 
