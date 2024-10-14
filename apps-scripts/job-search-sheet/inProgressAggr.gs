@@ -17,15 +17,13 @@ function inProgressUpdate() {
   var Alast = Avals.filter(String).length;
   var lastRow = Alast + 2
 
-  console.log(lastRow)
-
   var red_count = 0
   var blue_count = 0
   var blank_count = 0
   var unknown = 0
 
   var blues = []
-  for (var row = 4; row < lastRow; row++) {
+  for (var row = 4; row <= lastRow; row++) {
     cell = spreadsheet.getRange('A' + row).activate();
     currentColor = cell.getBackground();
 
@@ -53,7 +51,6 @@ function inProgressUpdate() {
       unknown += 1
     }    
   }
-  console.log(unknown)
 
   spreadsheet = SpreadsheetApp.getActive().getSheetByName('count')
   spreadsheet.getRange('F1').activate().setValue(blank_count);
@@ -69,9 +66,4 @@ function inProgressUpdate() {
     spreadsheet.getRange('G' + inProgressRow).activate().setValue(blues[i][2])
     inProgressRow += 1
   }
-
-  // console.log(reds);
-
-
-
 }

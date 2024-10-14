@@ -16,6 +16,10 @@ function getUtilInfo(utils) {
     } else {
       billDetails = parseEmail(key, billEmails[key]);
     }
+
+    if (!(billDetails)) {
+      continue
+    }
     
     res[key] = {
       "amount": billDetails.amount,
@@ -116,6 +120,9 @@ function parseEmail(key, email) {
     }
 
     var amountArray = htmlBody.match(searchDetailMapping["NationalGrid"].amount_regex_pattern)
+    if (!(amountArray)) {
+      return 
+    }
     var amount = getAmountFromNationalGrid(amountArray)
     var dueDate = htmlBody.match(searchDetailMapping["NationalGrid"].due_date_regex_pattern)[1]
 
