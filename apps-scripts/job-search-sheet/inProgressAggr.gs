@@ -27,8 +27,8 @@ function inProgressUpdate() {
 
   var blues = [];
   var greens = [];
-  // start 4
-  for (var row = 456; row <= lastRow; row++) {
+  // start at row 3 to skip the header and first entry
+  for (var row = 3; row <= lastRow; row++) {
     cell = spreadsheet.getRange("A" + row).activate();
     currentColor = cell.getBackground();
 
@@ -37,18 +37,18 @@ function inProgressUpdate() {
     }
     
     if (currentColor == BLANK) {
-      blank_count += 1;
+      blank_count++;
     } else if (currentColor == RED || currentColor == LIGHTRED3 || currentColor == LIGHTRED2 ) {
-      red_count += 1;
+      red_count++;
     } else if (currentColor == BLUE || currentColor == LIGHTBLUE3 || currentColor == LIGHTBLUE2 ) {
       blues.push(pullAppRow(spreadsheet, row))
-      blue_count += 1;
+      blue_count++;
     } else if (currentColor == GREEN) {
       greens.push(pullAppRow(spreadsheet, row))
-      green_count += 1;
+      green_count++;
     } else {
       console.log("Unknown color label found at " + row)
-      unknown_count += 1;
+      unknown_count++;
     }    
   }
 
@@ -108,7 +108,7 @@ function addAppRows(spreadsheet, row, appArr, bgColor=null) {
       cell = spreadsheet.getRange("A" + row + ":" + "G" + row).setBackground(bgColor);
     }
 
-    row += 1;
+    row++;
   }
 
   return row
