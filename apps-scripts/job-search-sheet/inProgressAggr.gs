@@ -54,13 +54,13 @@ function inProgressUpdate() {
 
   // Update "count" sheet
   spreadsheet = SpreadsheetApp.getActive().getSheetByName("count");
-  spreadsheet.getRange("C14").activate().setValue(blank_count);
-  spreadsheet.getRange("E14").activate().setValue(red_count);
-  spreadsheet.getRange("G14").activate().setValue(blue_count);
-  spreadsheet.getRange("I14").activate().setValue(green_count);
+  spreadsheet.getRange("B16").activate().setValue(blank_count);
+  spreadsheet.getRange("B17").activate().setValue(red_count);
+  spreadsheet.getRange("B18").activate().setValue(blue_count);
+  spreadsheet.getRange("B19").activate().setValue(green_count);
 
-  spreadsheet.getRange("A18:I42").clear();
-  var inProgress_row = 18;
+  var inProgress_row = 23;
+  spreadsheet.getRange("A" + inProgress_row + ":I42").clear();
   inProgress_row = addAppRows(spreadsheet, inProgress_row, blues);
   inProgress_row = addAppRows(spreadsheet, inProgress_row, greens, bgColor=GREEN);
 }
