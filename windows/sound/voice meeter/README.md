@@ -1,4 +1,4 @@
-# audio setup
+# sound setup
 
 ## Voicemeteer Potato
 https://vb-audio.com/Voicemeeter/potato.htm

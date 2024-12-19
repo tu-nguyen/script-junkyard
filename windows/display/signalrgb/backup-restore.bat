@@ -1,0 +1,7 @@
+@echo off
+reg export HKEY_CURRENT_USER\SOFTWARE\WhirlwindFX\SignalRgb SignalRGB_ALL_Backup.reg
+reg export HKEY_CURRENT_USER\SOFTWARE\WhirlwindFX\SignalRgb\layouts SignalRGB_Layout_Backup.reg
+reg export HKEY_CURRENT_USER\SOFTWARE\WhirlwindFX\SignalRgb\devices SignalRGB_Devices_Backup.reg
+reg export HKEY_CURRENT_USER\SOFTWARE\WhirlwindFX\SignalRgb\lighting SignalRGB_Endpoint_Backup.reg
+reg export HKEY_CURRENT_USER\SOFTWARE\WhirlwindFX\SignalRgb\MacroBlocks SignalRGB_MacroBlocks_Backup.reg
+exit
