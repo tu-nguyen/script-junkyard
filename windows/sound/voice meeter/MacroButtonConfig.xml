@@ -39,11 +39,11 @@ strip[2].mute = 0</MB_OffRequest>
 		<MB_Subname></MB_Subname>
 		<MB_InitRequest></MB_InitRequest>
 		<MB_OnRequest>Bus[0].mute = 1
-Bus[1].mute = 1
-Bus[2].mute = 0</MB_OnRequest>
-		<MB_OffRequest>Bus[0].mute = 0
 Bus[1].mute = 0
-Bus[2].mute = 1</MB_OffRequest>
+</MB_OnRequest>
+		<MB_OffRequest>Bus[0].mute = 0
+Bus[1].mute = 1
+</MB_OffRequest>
 	</MacroButton>
 	<MacroButton index='4' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
 		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
