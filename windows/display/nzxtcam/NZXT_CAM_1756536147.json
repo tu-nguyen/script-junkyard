@@ -1,0 +1,1123 @@
+{
+  "appVersion": "4.74.0",
+  "user": {
+    "miniModeSettings": {
+      "enableMiniMode": false,
+      "theme": "dark",
+      "themeColor": "FFFFFF",
+      "titleColor": "E8EBED",
+      "enableThemeColor": false,
+      "size": 100,
+      "opacity": 80,
+      "snapToEdge": false,
+      "alwaysOnTop": true,
+      "movable": true,
+      "panels": [
+        {
+          "id": "cpuTemp",
+          "enabled": true,
+          "unit": "°"
+        },
+        {
+          "id": "cpuLoad",
+          "enabled": false,
+          "unit": "%"
+        },
+        {
+          "id": "cpuClock",
+          "enabled": true,
+          "unit": "MHz"
+        },
+        {
+          "id": "cpuFan",
+          "enabled": false,
+          "unit": "RPM"
+        },
+        {
+          "id": "gpuTemp",
+          "enabled": true,
+          "unit": "°"
+        },
+        {
+          "id": "gpuLoad",
+          "enabled": true,
+          "unit": "%"
+        },
+        {
+          "id": "gpuClock",
+          "enabled": false,
+          "unit": "MHz"
+        },
+        {
+          "id": "gpuFan",
+          "enabled": false,
+          "unit": "RPM"
+        },
+        {
+          "id": "ramLoad",
+          "enabled": false,
+          "unit": "GB"
+        },
+        {
+          "id": "network",
+          "enabled": false,
+          "unit": "KB/s"
+        },
+        {
+          "id": "liquidTemp",
+          "enabled": false,
+          "unit": "°"
+        }
+      ],
+      "hotkey": {
+        "virtualKey": 77,
+        "modifiers": [
+          "control"
+        ]
+      },
+      "layout": "horizontal"
+    },
+    "settings": {
+      "closeMinimizeCAM": true,
+      "darkMode": true,
+      "locale": "en-US",
+      "panelsController": {
+        "panels": [
+          {
+            "id": "pcMonitoring",
+            "enabled": true
+          },
+          {
+            "id": "systemSpecs",
+            "enabled": true
+          },
+          {
+            "id": "lighting",
+            "enabled": true
+          },
+          {
+            "id": "cooling",
+            "enabled": true
+          },
+          {
+            "id": "power",
+            "enabled": true
+          },
+          {
+            "id": "keyboard",
+            "enabled": true
+          },
+          {
+            "id": "mouse",
+            "enabled": true
+          },
+          {
+            "id": "signal",
+            "enabled": true
+          },
+          {
+            "id": "monitor",
+            "enabled": true
+          },
+          {
+            "id": "audio",
+            "enabled": true
+          }
+        ]
+      },
+      "startupCAM": false,
+      "startCAMMinimized": false,
+      "miniModeOnStartup": false,
+      "temperature": "celsius"
+    },
+    "audioController": {
+      "deviceProfiles": []
+    },
+    "batteryController": {
+      "settings": []
+    },
+    "coolingController": {
+      "profiles": [
+        {
+          "id": "DEFAULT",
+          "originId": "Silent",
+          "name": "",
+          "channelSettings": []
+        },
+        {
+          "id": "Silent",
+          "originId": "Silent",
+          "name": "Silent",
+          "channelSettings": []
+        },
+        {
+          "id": "Performance",
+          "originId": "Performance",
+          "name": "Performance",
+          "channelSettings": []
+        },
+        {
+          "id": "Fixed",
+          "originId": "Fixed",
+          "name": "Fixed",
+          "channelSettings": []
+        }
+      ],
+      "activeProfileId": "DEFAULT",
+      "channelSettings": []
+    },
+    "deviceViewStateStore": {},
+    "lightingController": {
+      "profiles": [
+        {
+          "id": "4caa1494-73d0-4e5a-88ef-e53722e07e8d",
+          "originId": "DEFAULT",
+          "lastSelected": 1756535616751,
+          "name": "music",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+              "channelName": "LCD Display",
+              "brightness": 0.8,
+              "mode": {
+                "infographicMode": "DualInfographicGif",
+                "displayMode": "dual-infographic-gif",
+                "visualizationColors": [
+                  "6B00DE",
+                  "D600BF",
+                  "818181"
+                ],
+                "ringGradient": [
+                  {
+                    "id": "5987eecb-a066-41ba-bb52-bd87c4fcc769",
+                    "color": "00ff00",
+                    "position": 0
+                  },
+                  {
+                    "id": "5affa0d0-7d66-4ffe-9d0e-ac4a3f30b1db",
+                    "color": "ffff00",
+                    "position": 50
+                  },
+                  {
+                    "id": "52421368-f345-41b3-b1ce-173699d87d03",
+                    "color": "ff0000",
+                    "position": 100
+                  }
+                ],
+                "backgroundColor": "000000",
+                "reading1": {
+                  "monitoringKey": "CPUTemp",
+                  "reading": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  },
+                  "text": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  }
+                },
+                "reading2": {
+                  "monitoringKey": "GPUTemp",
+                  "reading": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  },
+                  "text": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  }
+                },
+                "logo": {
+                  "color": "FFFFFF",
+                  "outline": "000000"
+                },
+                "enableLogo": false,
+                "mediaPath": "d83104cf-a5e5-4933-af84-47512b689caa.gif",
+                "name": "InfographicLCD"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 1",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            }
+          ]
+        },
+        {
+          "id": "46c38f95-1ef5-4437-920d-5b511807622e",
+          "originId": "DEFAULT",
+          "lastSelected": 1756535604123,
+          "name": "valo",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+              "channelName": "LCD Display",
+              "brightness": 0.8,
+              "mode": {
+                "infographicMode": "DualInfographicGif",
+                "displayMode": "dual-infographic-gif",
+                "visualizationColors": [
+                  "6B00DE",
+                  "D600BF",
+                  "818181"
+                ],
+                "ringGradient": [
+                  {
+                    "id": "5987eecb-a066-41ba-bb52-bd87c4fcc769",
+                    "color": "00ff00",
+                    "position": 0
+                  },
+                  {
+                    "id": "5affa0d0-7d66-4ffe-9d0e-ac4a3f30b1db",
+                    "color": "ffff00",
+                    "position": 50
+                  },
+                  {
+                    "id": "52421368-f345-41b3-b1ce-173699d87d03",
+                    "color": "ff0000",
+                    "position": 100
+                  }
+                ],
+                "backgroundColor": "000000",
+                "reading1": {
+                  "monitoringKey": "CPUTemp",
+                  "reading": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  },
+                  "text": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  }
+                },
+                "reading2": {
+                  "monitoringKey": "GPUTemp",
+                  "reading": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  },
+                  "text": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  }
+                },
+                "logo": {
+                  "color": "FFFFFF",
+                  "outline": "000000"
+                },
+                "enableLogo": false,
+                "mediaPath": "830565f9-3586-4ce4-ac8a-95c046798b15.gif",
+                "name": "InfographicLCD"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 1",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            }
+          ]
+        },
+        {
+          "id": "DEFAULT",
+          "originId": "NZXT_WHITE",
+          "lastSelected": 0,
+          "name": "Default",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+              "channelName": "LCD Display",
+              "brightness": 0.8,
+              "mode": {
+                "infographicMode": "DualInfographicGif",
+                "displayMode": "dual-infographic-gif",
+                "visualizationColors": [
+                  "6B00DE",
+                  "D600BF",
+                  "818181"
+                ],
+                "ringGradient": [
+                  {
+                    "id": "5987eecb-a066-41ba-bb52-bd87c4fcc769",
+                    "color": "00ff00",
+                    "position": 0
+                  },
+                  {
+                    "id": "5affa0d0-7d66-4ffe-9d0e-ac4a3f30b1db",
+                    "color": "ffff00",
+                    "position": 50
+                  },
+                  {
+                    "id": "52421368-f345-41b3-b1ce-173699d87d03",
+                    "color": "ff0000",
+                    "position": 100
+                  }
+                ],
+                "backgroundColor": "000000",
+                "reading1": {
+                  "monitoringKey": "CPUTemp",
+                  "reading": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  },
+                  "text": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  }
+                },
+                "reading2": {
+                  "monitoringKey": "GPUTemp",
+                  "reading": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  },
+                  "text": {
+                    "color": "FFD1DC",
+                    "outline": "000000"
+                  }
+                },
+                "logo": {
+                  "color": "FFFFFF",
+                  "outline": "000000"
+                },
+                "enableLogo": false,
+                "mediaPath": "e296769a-1bbc-446a-bc4b-d76125624e9c.gif",
+                "name": "InfographicLCD"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 1",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            }
+          ]
+        },
+        {
+          "id": "NZXT_WHITE",
+          "originId": "NZXT_WHITE",
+          "lastSelected": 0,
+          "name": "White",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+              "channelName": "LCD Display",
+              "brightness": 0.8,
+              "mode": {
+                "infographicMode": "InfographicLCD",
+                "displayMode": "radial-fill",
+                "visualizationColors": [
+                  "6B00DE",
+                  "D600BF"
+                ],
+                "ringGradient": [
+                  {
+                    "id": "5987eecb-a066-41ba-bb52-bd87c4fcc769",
+                    "color": "00ff00",
+                    "position": 0
+                  },
+                  {
+                    "id": "5affa0d0-7d66-4ffe-9d0e-ac4a3f30b1db",
+                    "color": "ffff00",
+                    "position": 50
+                  },
+                  {
+                    "id": "52421368-f345-41b3-b1ce-173699d87d03",
+                    "color": "ff0000",
+                    "position": 100
+                  }
+                ],
+                "backgroundColor": "000000",
+                "reading1": {
+                  "monitoringKey": "LiquidTemp",
+                  "reading": {
+                    "color": "FFFFFF"
+                  },
+                  "text": {
+                    "color": "FFFFFF"
+                  }
+                },
+                "reading2": {
+                  "monitoringKey": "LiquidTemp",
+                  "reading": {
+                    "color": "FFFFFF"
+                  },
+                  "text": {
+                    "color": "FFFFFF"
+                  }
+                },
+                "logo": {
+                  "color": "FFFFFF"
+                },
+                "enableLogo": true,
+                "mediaPath": "",
+                "name": "InfographicLCD"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 1",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              },
+              "lcdSyncEnabled": false
+            }
+          ]
+        },
+        {
+          "id": "NZXT_SPECTRUM_WAVE",
+          "originId": "NZXT_SPECTRUM_WAVE",
+          "lastSelected": 0,
+          "name": "Spectrum Wave",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+              "channelName": "LCD Display",
+              "brightness": 0.8,
+              "mode": {
+                "infographicMode": "InfographicLCD",
+                "displayMode": "radial-fill",
+                "visualizationColors": [
+                  "6B00DE",
+                  "D600BF"
+                ],
+                "ringGradient": [
+                  {
+                    "id": "5987eecb-a066-41ba-bb52-bd87c4fcc769",
+                    "color": "00ff00",
+                    "position": 0
+                  },
+                  {
+                    "id": "5affa0d0-7d66-4ffe-9d0e-ac4a3f30b1db",
+                    "color": "ffff00",
+                    "position": 50
+                  },
+                  {
+                    "id": "52421368-f345-41b3-b1ce-173699d87d03",
+                    "color": "ff0000",
+                    "position": 100
+                  }
+                ],
+                "backgroundColor": "000000",
+                "reading1": {
+                  "monitoringKey": "LiquidTemp",
+                  "reading": {
+                    "color": "FFFFFF"
+                  },
+                  "text": {
+                    "color": "FFFFFF"
+                  }
+                },
+                "reading2": {
+                  "monitoringKey": "LiquidTemp",
+                  "reading": {
+                    "color": "FFFFFF"
+                  },
+                  "text": {
+                    "color": "FFFFFF"
+                  }
+                },
+                "logo": {
+                  "color": "FFFFFF"
+                },
+                "enableLogo": true,
+                "mediaPath": "",
+                "name": "InfographicLCD"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 1",
+              "brightness": 1,
+              "mode": {
+                "speed": "normal",
+                "direction": "forward",
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "SpectrumWave"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "speed": "normal",
+                "direction": "forward",
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "SpectrumWave"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "speed": "normal",
+                "direction": "forward",
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "SpectrumWave"
+              },
+              "lcdSyncEnabled": false
+            }
+          ]
+        },
+        {
+          "id": "NZXT_PURPLE",
+          "originId": "NZXT_PURPLE",
+          "lastSelected": 0,
+          "name": "NZXT Purple",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_RED_ALERT",
+          "originId": "NZXT_RED_ALERT",
+          "lastSelected": 0,
+          "name": "Red Alert",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_VAPORWAVE",
+          "originId": "NZXT_VAPORWAVE",
+          "lastSelected": 0,
+          "name": "Vaporwave",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_MERMAID",
+          "originId": "NZXT_MERMAID",
+          "lastSelected": 0,
+          "name": "Mermaid",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_AUDIO_LEVEL",
+          "originId": "NZXT_AUDIO_LEVEL",
+          "lastSelected": 0,
+          "name": "Audio Level",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+              "channelName": "LCD Display",
+              "brightness": 0.8,
+              "mode": {
+                "infographicMode": "InfographicLCD",
+                "displayMode": "radial-fill",
+                "visualizationColors": [
+                  "6B00DE",
+                  "D600BF"
+                ],
+                "ringGradient": [
+                  {
+                    "id": "5987eecb-a066-41ba-bb52-bd87c4fcc769",
+                    "color": "00ff00",
+                    "position": 0
+                  },
+                  {
+                    "id": "5affa0d0-7d66-4ffe-9d0e-ac4a3f30b1db",
+                    "color": "ffff00",
+                    "position": 50
+                  },
+                  {
+                    "id": "52421368-f345-41b3-b1ce-173699d87d03",
+                    "color": "ff0000",
+                    "position": 100
+                  }
+                ],
+                "backgroundColor": "000000",
+                "reading1": {
+                  "monitoringKey": "LiquidTemp",
+                  "reading": {
+                    "color": "FFFFFF"
+                  },
+                  "text": {
+                    "color": "FFFFFF"
+                  }
+                },
+                "reading2": {
+                  "monitoringKey": "LiquidTemp",
+                  "reading": {
+                    "color": "FFFFFF"
+                  },
+                  "text": {
+                    "color": "FFFFFF"
+                  }
+                },
+                "logo": {
+                  "color": "FFFFFF"
+                },
+                "enableLogo": true,
+                "mediaPath": "",
+                "name": "InfographicLCD"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 1",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FF0000",
+                  "FFA500",
+                  "FFFF00",
+                  "00FF00",
+                  "0000FF",
+                  "51007A",
+                  "FF0000",
+                  "FFA500"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Audio",
+                "modeName": "Sync"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FF0000",
+                  "FFA500",
+                  "FFFF00",
+                  "00FF00",
+                  "0000FF",
+                  "51007A",
+                  "FF0000",
+                  "FFA500"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Audio",
+                "modeName": "Sync"
+              },
+              "lcdSyncEnabled": false
+            },
+            {
+              "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FF0000",
+                  "FFA500",
+                  "FFFF00",
+                  "00FF00",
+                  "0000FF",
+                  "51007A",
+                  "FF0000",
+                  "FFA500"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Audio",
+                "modeName": "Sync"
+              },
+              "lcdSyncEnabled": false
+            }
+          ]
+        }
+      ],
+      "activeProfileId": "4caa1494-73d0-4e5a-88ef-e53722e07e8d",
+      "channelSettings": [
+        {
+          "deviceUniqueId": "KrakenElite-2190620804-758616078-0",
+          "channelName": "LCD Display",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+          "channelName": "channel 1",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+          "channelName": "channel 2",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+          "channelName": "channel 3",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "rgb_controller-67403840-2864424073-1630390275",
+          "channelName": "RGB Controller",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        }
+      ]
+    },
+    "masterProfileController": {
+      "profiles": [
+        {
+          "id": "DEFAULT",
+          "name": "Default",
+          "condition": {
+            "type": "none"
+          },
+          "lightingProfileId": "DEFAULT",
+          "coolingProfileId": "DEFAULT",
+          "mouseProfileIdMap": {},
+          "keyboardProfileIdMap": {},
+          "keyboardV1ProfileIdMap": {},
+          "monitorProfileIdMap": {},
+          "audioProfilesIdMap": {}
+        },
+        {
+          "id": "c5409259-0247-41b4-a59e-ee9e31a6885b",
+          "name": "music",
+          "condition": {
+            "type": "game",
+            "gameIds": [
+              "59942774"
+            ]
+          },
+          "lightingProfileId": "4caa1494-73d0-4e5a-88ef-e53722e07e8d",
+          "coolingProfileId": "DEFAULT",
+          "mouseProfileIdMap": {},
+          "keyboardProfileIdMap": {},
+          "keyboardV1ProfileIdMap": {},
+          "monitorProfileIdMap": {},
+          "audioProfilesIdMap": {}
+        },
+        {
+          "id": "b99f7c3a-0b65-4d56-8cab-ab88b4d5c0d3",
+          "name": "valo",
+          "condition": {
+            "type": "game",
+            "gameIds": [
+              "93978387"
+            ]
+          },
+          "lightingProfileId": "46c38f95-1ef5-4437-920d-5b511807622e",
+          "coolingProfileId": "DEFAULT",
+          "mouseProfileIdMap": {},
+          "keyboardProfileIdMap": {},
+          "keyboardV1ProfileIdMap": {},
+          "monitorProfileIdMap": {},
+          "audioProfilesIdMap": {}
+        }
+      ],
+      "activeProfileId": "c5409259-0247-41b4-a59e-ee9e31a6885b"
+    },
+    "keyboardController": {
+      "deviceProfiles": []
+    },
+    "keyboardProfileStore": {
+      "deviceProfiles": []
+    },
+    "keyRemapController": {
+      "deviceProfiles": []
+    },
+    "mouseController": {
+      "deviceProfiles": []
+    },
+    "monitorController": {
+      "profiles": [],
+      "activeProfileIdByDevice": {},
+      "monitorNames": [],
+      "monitorGlobalSettings": []
+    },
+    "captureController": {
+      "captureNames": []
+    },
+    "displayedGPUId": {
+      "id": "PCI\\VEN_10DE&DEV_2204&SUBSYS_87D91043&REV_A1\\4&22f77229&0&0008"
+    },
+    "powerConfiguration": {
+      "ocpSettings": {}
+    },
+    "customGames": [
+      {
+        "id": 59942774,
+        "name": "Spotify",
+        "slug": "spotify",
+        "poster": {
+          "url": ""
+        },
+        "game_exes": [
+          "Spotify.exe"
+        ],
+        "window_classes": [
+          ""
+        ],
+        "window_names": [
+          ""
+        ],
+        "disabled": false,
+        "created_at": "",
+        "updated_at": "",
+        "anti_cheat_hook": false
+      },
+      {
+        "id": 93978387,
+        "name": "VALORANT-Win64-Shipping",
+        "slug": "valorant-win64-shipping",
+        "poster": {
+          "url": ""
+        },
+        "game_exes": [
+          "VALORANT-Win64-Shipping.exe"
+        ],
+        "window_classes": [
+          ""
+        ],
+        "window_names": [
+          ""
+        ],
+        "disabled": false,
+        "created_at": "",
+        "updated_at": "",
+        "anti_cheat_hook": false
+      }
+    ],
+    "userWebIntegrations": [],
+    "lightingV2Store": {
+      "ledChannelMap": {}
+    }
+  },
+  "local": {
+    "appUpdater": {
+      "lastReadPatchNotesVersion": "4.74.0"
+    },
+    "colorPicker": {
+      "colors": [
+        "000000",
+        "FFD1DC",
+        "6A6767"
+      ],
+      "gradients": []
+    },
+    "currentUser": {
+      "mode": "guest"
+    },
+    "knownGPUs": {
+      "ids": []
+    },
+    "router": {
+      "pathname": "/settings/general"
+    },
+    "featureFlags": {
+      "flags": {}
+    }
+  }
+}
